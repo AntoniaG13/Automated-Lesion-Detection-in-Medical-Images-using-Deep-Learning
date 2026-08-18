@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Detection Result{% endblock %}
+
+{% block content %}
+  <h1>Detection Result</h1>
+  <p class="summary">{{ num_lesions }} lesion candidate(s) detected</p>
+
+  <img src="{{ result_image }}" alt="Detection overlay">
+
+  {% if not lesions %}
+  <p class="no-lesions">No lesions detected above the current threshold.</p>
+  {% endif %}
+
+  <a class="back-link" href="/">&larr; Try another image</a>
+{% endblock %}

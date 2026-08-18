@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{% block title %}Lesion Detection Demo{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">Automated Lesion Detection</div>
+        <div class="navbar-links">
+            <a href="/" class="nav-button">Home</a>
+        </div>
+  </nav>
+
+  {% block content %}{% endblock %}
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+--extra-index-url https://download.pytorch.org/whl/cu124
+ipykernel==7.3.0
+requests==2.34.2
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
+segmentation-models-pytorch==0.5.0
+scikit-image==0.26.0
+nibabel
+matplotlib==3.11.1
+grad-cam==1.5.5
+medsam==0.0.1
