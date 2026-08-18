@@ -9,4 +9,3 @@ scikit-image==0.26.0
 nibabel
 matplotlib==3.11.1
 grad-cam==1.5.5
-medsam==0.0.1
