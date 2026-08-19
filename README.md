@@ -1,4 +1,4 @@
-# Automated Lesion Detection in Medical Images using Deep Learning
+# Automated Lesion Detection in Medical Images using Deep Learning Web Application
 
 ## Setup for Windows & Nvidia GPU
 
